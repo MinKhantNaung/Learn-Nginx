@@ -1,0 +1,8 @@
+// install nginx in window
+https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
+
+// start nginx 
+command: nginx 
+
+// reload nginx 
+command: nginx -s reload 
