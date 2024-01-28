@@ -10,3 +10,7 @@ command: nginx -s reload
 // location block 
 // in location --> root --> will append /uri   // when you use root, you need exactly folder 
 // but alias --> will not append /uri          // when you use alias, you no need exactly folder 
+
+// in folder   when index.html not exist (checking condition) use -- try_files
+// explaining code -->when not found index.html, show veggies.html. when not found veggies.html, show index.html.
+when not found index.html, 404.
