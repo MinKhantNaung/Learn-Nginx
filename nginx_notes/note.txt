@@ -17,3 +17,7 @@ when not found index.html, 404.
 
 // in that    rewrite ^/number/(\w+) /count/$1;
 when go to /number/1, or /number/2, it will work like location /count/[0-9]
+
+// load balancing  
+// build docker container  command: docker build . -t myserver
+// start docker container  command: docker run -p 1111:7777 -d myserver
