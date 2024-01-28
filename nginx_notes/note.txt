@@ -6,3 +6,7 @@ command: nginx
 
 // reload nginx 
 command: nginx -s reload 
+
+// location block 
+// in location --> root --> will append /uri   // when you use root, you need exactly folder 
+// but alias --> will not append /uri          // when you use alias, you no need exactly folder 
